@@ -7,23 +7,16 @@ This Python application fetches real-time weather data from OpenWeatherMap API f
 WEATHER ├── config.py ├── requirements.txt ├── weather_client.py └── db_manager.py ├── main.py ├── utils.py
 
  # Features
-Input city names interactively or type exit to quit.
-
-Fetches live temperature (in °C), humidity (%), and weather conditions.
-
-Displays simple meaningful explanations about temperature and humidity values.
-
-Logs each lookup response into a SQLite database with a timestamp.
-
-Uses OOP with clear separation of concerns: fetching data, displaying info, and logging.
-
-Handles invalid inputs and API errors gracefully.
+-  Input city names interactively or type exit to quit.
+-  Fetches live temperature (in °C), humidity (%), and weather conditions.
+-  Displays simple meaningful explanations about temperature and humidity values.
+-  Logs each lookup response into a SQLite database with a timestamp.
+-  Uses OOP with clear separation of concerns: fetching data, displaying info, and logging.
+-  Handles invalid inputs and API errors gracefully.
 
 # Requirements
-```
-Python 3.6+
-```
-requests library
+-  Python 3.6+
+-  Requests library
 
 # Installation
 
