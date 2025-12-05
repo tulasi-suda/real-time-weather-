@@ -29,3 +29,11 @@ pip install requests
 ```
 
 3.Get an API key from OpenWeatherMap Sign up for a free account Generate an API key in your dashboard
+data Storage & Logging
+# SQLite Database: 
+
+-  All API responses are automatically logged with timestamps
+-  Persistent Storage: Data remains available between sessions
+-  Structured Logging: Each entry includes:
+-  Timestamp of request
+-  City name searched
