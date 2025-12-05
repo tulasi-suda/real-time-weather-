@@ -1,4 +1,3 @@
-# real-time-weather-
 # Real-Time Weather Info & Logger
 # Overview
 This Python application fetches real-time weather data from OpenWeatherMap API for user-specified cities and logs all responses with timestamps to both SQLite database and text files .Designed with Object-Oriented Programming (OOP) principles to keep code organized and maintainable. Proper error handling ensures robustness against invalid city names or API issues.
